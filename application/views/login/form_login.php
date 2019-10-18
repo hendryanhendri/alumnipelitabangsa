@@ -45,7 +45,7 @@
 								<div class="sign_in_sec current" id="tab-1">
 
 									<h3>Masuk</h3>
-									<form>
+									<form method="post">
 										<div class="row">
 											<div class="col-lg-12 no-pdd">
 												<div class="sn-field">
@@ -61,21 +61,15 @@
 											</div>
 											<div class="col-lg-12 no-pdd">
 												<div class="checky-sec">
-													<div class="fgt-sec">
-														<input type="checkbox" name="cc" id="c1">
-														<label for="c1">
-															<span></span>
-														</label>
-														<small>Ingatkan Ini</small>
-													</div><!--fgt-sec end-->
 													<a href="#" title="">Lupa Kunci?</a>
 												</div>
 											</div>
 											<div class="col-lg-12 no-pdd">
-												<button type="submit" value="submit">Masuk</button>
+												<button type="submit" id="kirim-data" value="submit">Masuk</button>
 											</div>
 										</div>
 									</form>
+
 									<div class="login-resources">
 										<h4>Masuk Lewat Sosial Media .?</h4>
 										<ul>
@@ -87,37 +81,45 @@
 								<div class="sign_in_sec" id="tab-2">
 									<div class="signup-tab">
 										<i class="fa fa-long-arrow-left"></i>
-										<h2>johndoe@example.com</h2>
 										<ul>
-											<li data-tab="tab-3" class="current"><a href="#" title="">User</a></li>
-											<li data-tab="tab-4"><a href="#" title="">Company</a></li>
+											<li data-tab="tab-3" class="current"><a href="#" title="">ALUMNI</a></li>
+											<!--<li data-tab="tab-4"><a href="#" title="">Company</a></li>-->
 										</ul>
 									</div><!--signup-tab end-->
 									<div class="dff-tab current" id="tab-3">
-										<form>
+										<form method="post">
 											<div class="row">
 												<div class="col-lg-12 no-pdd">
 													<div class="sn-field">
-														<input type="text" name="name" placeholder="Full Name">
+														<input type="text" name="name" placeholder="Nama Lengkap">
 														<i class="la la-user"></i>
 													</div>
 												</div>
+                        <div class="row">
+                          <div class="col-lg-12 no-pdd">
+                            <div class="sn-field">
+                              <input type="text" name="nim" placeholder="Nim">
+                              <i class="la la-key"></i>
+                            </div>
+                          </div>
 												<div class="col-lg-12 no-pdd">
 													<div class="sn-field">
-														<input type="text" name="country" placeholder="Country">
+														<input type="text" name="country" placeholder="Negara">
 														<i class="la la-globe"></i>
 													</div>
 												</div>
 												<div class="col-lg-12 no-pdd">
 													<div class="sn-field">
 														<select>
-															<option>Category</option>
+															<option>Jurusan</option>
+                              <option>Teknik Informatika</option>
+                              <option>Teknik lingkungan</option>
 														</select>
 														<i class="la la-dropbox"></i>
 														<span><i class="fa fa-ellipsis-h"></i></span>
 													</div>
 												</div>
-												<div class="col-lg-12 no-pdd">
+											<!--	<div class="col-lg-12 no-pdd">
 													<div class="sn-field">
 														<input type="password" name="password" placeholder="Password">
 														<i class="la la-lock"></i>
@@ -128,7 +130,7 @@
 														<input type="password" name="repeat-password" placeholder="Repeat Password">
 														<i class="la la-lock"></i>
 													</div>
-												</div>
+												</div>-->
 												<div class="col-lg-12 no-pdd">
 													<div class="checky-sec st2">
 														<div class="fgt-sec">
@@ -136,12 +138,12 @@
 															<label for="c2">
 																<span></span>
 															</label>
-															<small>Yes, I understand and agree to the workwise Terms & Conditions.</small>
+															<small>Yes, Saya memahami dan menyetujui Syarat & Ketentuan yang berlaku.</small>
 														</div><!--fgt-sec end-->
 													</div>
 												</div>
 												<div class="col-lg-12 no-pdd">
-													<button type="submit" value="submit">Get Started</button>
+													<button type="submit" value="submit">Daftar</button>
 												</div>
 											</div>
 										</form>
