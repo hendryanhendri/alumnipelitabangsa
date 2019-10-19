@@ -106,7 +106,7 @@
 							  				</div><!--notification-info -->
 						  				</div>
 						  				<div class="view-all-nots">
-						  					<a href="messages.html" title="">View All Messsages</a>
+						  					<a href="messages.html" title="">Lihat Semua Pesan</a>
 						  				</div>
 									</div><!--nott-list end-->
 								</div><!--notification-box end-->
@@ -159,7 +159,7 @@
 							  				</div><!--notification-info -->
 						  				</div>
 						  				<div class="view-all-nots">
-						  					<a href="#" title="">View All Notification</a>
+						  					<a href="#" title="">Lihat Semua Notifikasi</a>
 						  				</div>
 									</div><!--nott-list end-->
 								</div><!--notification-box end-->
@@ -239,15 +239,15 @@
 										</div><!--user-profile end-->
 										<ul class="user-fw-status">
 											<li>
-												<h4>Following</h4>
+												<h4>Mengikuti</h4>
 												<span>34</span>
 											</li>
 											<li>
-												<h4>Followers</h4>
+												<h4>Diikuti</h4>
 												<span>155</span>
 											</li>
 											<li>
-												<a href="#" title="">View Profile</a>
+												<a href="#" title="">Lihat Profil</a>
 											</li>
 										</ul>
 									</div><!--user-data end-->
@@ -285,7 +285,7 @@
 
 
 											<div class="view-more">
-												<a href="#" title="">View More</a>
+												<a href="#" title="">Lihat Lebih</a>
 											</div>
 										</div><!--suggestions-list end-->
 									</div><!--suggestions end-->
@@ -357,7 +357,7 @@
 													<li><a href="#" title="">Full Time</a></li>
 													<li><span>$30 / hr</span></li>
 												</ul>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title="">view more</a></p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title="">Lihat Lagi</a></p>
 												<ul class="skill-tags">
 													<li><a href="#" title="">HTML</a></li>
 													<li><a href="#" title="">PHP</a></li>
@@ -375,7 +375,7 @@
 													</li>
 													<li><a href="#" title="" class="com"><img src="<?php echo base_url(); ?>assets/images/com.png" alt=""> Comment 15</a></li>
 												</ul>
-												<a><i class="la la-eye"></i>Views 50</a>
+												<a><i class="la la-eye"></i>Lihat 50</a>
 											</div>
 										</div><!--post-bar end-->
 
@@ -454,7 +454,7 @@
 											</div><!--job-info end-->
 										</div><!--jobs-list end-->
 									</div><!--widget-jobs end-->
-									
+
 									<div class="widget suggestions full-width">
 										<div class="sd-title">
 											<h3>Paling Banyak Dilihat</h3>
@@ -479,7 +479,7 @@
 												<span><i class="la la-plus"></i></span>
 											</div>
 											<div class="view-more">
-												<a href="#" title="">View More</a>
+												<a href="#" title="">Lihat Lebih</a>
 											</div>
 										</div><!--suggestions-list end-->
 									</div>
