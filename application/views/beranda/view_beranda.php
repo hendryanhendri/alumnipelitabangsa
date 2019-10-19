@@ -311,12 +311,12 @@
 								<div class="main-ws-sec">
 									<div class="post-topbar">
 										<div class="user-picy">
-											<img src="http://via.placeholder.com/100x100" alt="">
+											<img src="<?php echo base_url('photo/'.$this->session->userdata('photo'));?>" alt="">
 										</div>
 										<div class="post-st">
 											<ul>
-												<li><a class="post_project" href="#" title="">Post a Project</a></li>
-												<li><a class="post-jb active" href="#" title="">Post a Job</a></li>
+												<li><a class="post_project" href="#" title="">Buat Status</a></li>
+												<li><a class="post-jb active" href="#" title="">Buat Berita</a></li>
 											</ul>
 										</div><!--post-st end-->
 									</div><!--post-topbar end-->
