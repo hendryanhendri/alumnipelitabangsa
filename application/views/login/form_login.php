@@ -45,7 +45,7 @@
 								<div class="sign_in_sec current" id="tab-1">
 
 									<h3>Masuk</h3>
-									<form method="post">
+									<form id="form-login" method="post" action="<?php echo base_url();?>index.php/Login/getLoginApps">
 										<div class="row">
 											<div class="col-lg-12 no-pdd">
 												<div class="sn-field">
@@ -55,17 +55,36 @@
 											</div>
 											<div class="col-lg-12 no-pdd">
 												<div class="sn-field">
-													<input type="password" name="password" placeholder="Kunci">
+													<input type="password" name="password" placeholder="Sandi">
 													<i class="la la-lock"></i>
 												</div>
 											</div>
+                    <div class="text-danger">
+                    <?php
+                      $info = $this->session->flashdata('info');
+                      if(!empty($info))
+                      {
+                        echo $info;
+                      }
+                       ?>
+                     </div>
+                     <div class="text-danger">
+                     <?php
+                       $info = $this->session->flashdata('info1');
+                       if(!empty($info))
+                       {
+                         echo $info;
+                       }
+                        ?>
+                      </div>
+
 											<div class="col-lg-12 no-pdd">
 												<div class="checky-sec">
 													<a href="#" title="">Lupa Kunci?</a>
 												</div>
 											</div>
 											<div class="col-lg-12 no-pdd">
-												<button type="submit" id="kirim-data" value="submit">Masuk</button>
+												<button type="submit" id="kirim-data">Masuk</button>
 											</div>
 										</div>
 									</form>
@@ -216,12 +235,11 @@
 
 	</div><!--theme-layout end-->
 
-
-
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/popper.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/lib/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/script.js"></script>
+
 </body>
 </html>
